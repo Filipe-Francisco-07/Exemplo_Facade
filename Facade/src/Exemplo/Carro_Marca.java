@@ -1,8 +1,10 @@
 package Exemplo;
 
 public class Carro_Marca {
+	private String marca;
  
 	public void SetMarca(String marca) {
-		System.out.println(" Carro_Acessorios - "+marca);
+		this.marca = marca;
+		System.out.println(" Carro_Marca - "+this.marca);
 	}
 }

@@ -14,11 +14,10 @@ public class Carro_Facade {
 	}
 	
 	public void construirCarroCompleto(String modelo, String marca, String motor, String cor){
-		System.out.println("******** Criando o carro **********\n");
+		System.out.println("---Criando o carro:---\n");
 		this.modelo.SetModelo(modelo);
 		this.motor.SetMotor(motor);
 		this.marca.SetMarca(marca);
 		this.cor.SetCor(cor);
-
 	}
 }
